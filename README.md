@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Front-end da aplicação Jogadores!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielHott/Pagina-de-Receitas/blob/master/LICENSE)
 
-## Available Scripts
+### Disponível em  [Jogadores](https://front-jogadores.herokuapp.com/)!
 
-In the project directory, you can run:
+#### Este é o repositório do front-end da aplicação postada em https://front-jogadores.herokuapp.com/, confira o repositório do back-end em: https://github.com/DanielHott/jogadores-back
 
-### `npm start`
+## Tecnologias utilizadas no front-end:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### React.js, HTML, CSS, Axios e Javascript.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Aplicação: 
 
-### `npm test`
+Esta aplicação permite o usuário inserir seu jogador ou sua jogadora favorita e renderizar na tela! Após inserir as informações do jogador(a) e clicar em adicionar,
+o jogador(a) é salvo no banco de dados e fica disponível para todos!
+#### Tela da aplicação:
+![Web 1](https://github.com/DanielHott/imagens/blob/master/jogadoresfront.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Informações inseridas
+A aplicação permite que o usuário forneça o nome do jogador(a), a idade, o clube que o jogador(a) está atuando no momento, e permite que insira uma url
+de sua foto preferida do jogador(a)! Esta url deve estar no formato .jpg, .png ou .jpeg para que seja inserida corretamente. Ainda permite que tenha mais
+informações sobre o atleta ou a atleta redirecionando para páginas dedicadas aos jogadores.
 
-### `npm run build`
+#### Exemplo da utilização:
+![Web 1](https://github.com/DanielHott/imagens/blob/master/jogadoresfront2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Copiando para sua máquina:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/DanielHott/jogadores-front.git
+```
 
-### `npm run eject`
+Entre no diretório do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  cd jogadores-front
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instale as dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Inicie o servidor
 
-## Learn More
+```bash
+  npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Detalhes:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este front-end recebe uma API que permite obter todos os jogadores disponíveis no banco de dados por meio do fetch, e também permite que adicione um novo usuário por meio de uma requisição do tipo POST. A recuperação das informações é feito por meio do axios. A API foi inteiramente desenvolvida por Daniel Hott.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ### Desenvolvido por Daniel Hott
