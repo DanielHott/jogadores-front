@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielHott/Pagina-de-Receitas/blob/master/LICENSE)
 
-### Disponível em  [Jogadores](https://front-jogadores.herokuapp.com/)!
+### Disponível em  [Jogadores](https://jogadores-front-jw4s.vercel.app/)!
 
 #### Este é o repositório do front-end da aplicação postada em https://front-jogadores.herokuapp.com/, confira o repositório do back-end em: https://github.com/DanielHott/jogadores-back
 
