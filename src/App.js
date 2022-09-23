@@ -1,6 +1,6 @@
 import './App.css';
-import Leitor from './Leitor';
-import Adicionar from './Adicionar';
+import Leitor from './components/reader/Leitor';
+import Adicionar from './components/addPlayer/Adicionar';
 
 function App() {
   return (

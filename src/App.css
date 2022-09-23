@@ -13,13 +13,6 @@ body {
   }
 }
 
-.Leitor {
-  display: flex;
-  justify-content:space-between;
-  margin-top: 0px;
-  flex-wrap: wrap;
-}
-
 .Adicionar { 
   background-image: url('https://33giga.com.br/wp-content/uploads/2020/07/aplicativo-cria-wallpapers-personalizados-de-camisas-de-futebol-veja-como-usar.jpg');
   background-size: cover;
@@ -30,37 +23,6 @@ body {
   margin: 20px;
 }
 
-.Card:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
-}
- 
-.Card p {
-  color: #0b0524;
-  font-size: 16px;
-}
- 
-
-.blue {
-  border-left: 3px solid #4895ff;
-}
- 
-.green {
-  border-left: 3px solid #3bb54a;
-}
- 
-.red {
-  border-left: 3px solid #b3404a;
-}
-
-.Card {
-  border-radius: 5px;
-  box-shadow: 7px 7px 13px 12px rgba(50, 50, 50, 0.22);
-  padding: 30px;
-  margin: 20px;
-  width: 300px;
-  transition: all 0.3s ease-out;
-}
 
 .App-link {
   color: #61dafb;

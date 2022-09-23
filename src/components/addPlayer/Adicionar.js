@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Inputs, Button } from './styles';
 
 function Adicionar() {
   const [ info, setInfo ] = useState({
@@ -31,23 +32,23 @@ function redirect (e) {
     <div className="Adicionar">
     <h2>Adicione seu jogador(a) favorito! </h2>
       <form onSubmit={(e) => redirect(e)}>
-         <label>Nome do jogador: <input type="text"
+         <label>Nome do jogador: <Inputs type="text"
          onChange={(a) => setInfo({...info, nome: a.target.value })}
-         placeholder="Insira o nome do seu jogador" required></input>
+         placeholder="Insira o nome do seu jogador" required></Inputs>
          </label>
-          <label> Idade: <input type="text"
+          <label> Idade: <Inputs type="text"
           onChange={(a) => setInfo({...info, idade: a.target.value })}
-          placeholder="Insira a idade do seu jogador" required></input>
+          placeholder="Insira a idade do seu jogador" required></Inputs>
           </label>
-          <label> Clube: <input type="text"
+          <label> Clube: <Inputs type="text"
           onChange={(a) => setInfo({...info, time: a.target.value })}
-          placeholder="Ex: Flamengo" required></input>
+          placeholder="Ex: Flamengo" required></Inputs>
           </label>
-          <label> Imagem: <input type="text"
-          placeholder="ex: foto-do-jogador.jpg"
-          onChange={(a) => setInfo({...info, imagem: a.target.value })}required></input>
+          <label> Imagem: <Inputs type="text"
+          placeholder="Ex: foto-do-jogador.jpg"
+          onChange={(a) => setInfo({...info, imagem: a.target.value })}required></Inputs>
           </label>
-          <button type="submit">Adicionar</button>
+          <Button type="submit">Adicionar</Button>
       </form>
     </div>
   );
