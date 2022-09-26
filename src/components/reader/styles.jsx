@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  display: flex;
+  justify-content: center;
 .Card:hover {
   transform: translateY(-5px);
   cursor: pointer;
@@ -58,4 +60,8 @@ export const Info = styled.div`
         display: flex;
         align-items: center;
     }
+`;
+
+export const Tail = styled.div`
+    margin-top: 130px;
 `;

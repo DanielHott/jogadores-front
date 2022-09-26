@@ -1,9 +1,10 @@
 import axios from 'axios'; 
 import { useState, useEffect } from 'react';
+import { TailSpin } from 'react-loader-spinner'
 import { GrSearchAdvanced } from 'react-icons/gr';
 import { BsFillPersonLinesFill, BsCalendarWeekFill } from 'react-icons/bs';
 import { MdBusinessCenter } from 'react-icons/md';
-import { Container, Info } from './styles';
+import { Container, Info, Tail } from './styles';
 const url = 'https://back-jogadores.herokuapp.com/'
 
 function Leitor () {
@@ -33,7 +34,7 @@ return (
   <Container >
     <div className="Leitor">
 
-{         !loading && files[0].map((a) => {
+{         !loading ? files[0].map((a) => {
           return (
             <div className="Card"key={a.nome}>
               <img src={a.imagem} width="300" height="400" alt=""/>
@@ -51,7 +52,19 @@ return (
               </Info>
               </div>
           )
-})} 
+}) : <Tail><TailSpin
+              height="80"
+              width="80"
+              color="#4fa94d"
+              className="tail"
+              ariaLabel="tail-spin-loading"
+              radius="1"
+              wrapperStyle={{}}
+              wrapperClass=""
+              visible={true}
+      />
+      </Tail>
+      } 
     </div>
   </Container>
   );
