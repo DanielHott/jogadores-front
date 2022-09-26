@@ -4,7 +4,7 @@
 
 ### Disponível em  [Jogadores](https://jogadores-front-jw4s.vercel.app/)!
 
-#### Este é o repositório do front-end da aplicação postada em https://front-jogadores.herokuapp.com/, confira o repositório do back-end em: https://github.com/DanielHott/jogadores-back
+#### Este é o repositório do front-end da aplicação postada em https://jogadores-front-jw4s.vercel.app/, confira o repositório do back-end em: https://github.com/DanielHott/jogadores-back
 
 ## Tecnologias utilizadas no front-end:
 
